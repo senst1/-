@@ -1,0 +1,163 @@
+body{
+    background-color: darkslateblue;
+}
+
+.container{
+    width: 700px;
+    height: 80px;
+    position: relative;
+    background-color: dodgerblue;
+    display: flex;
+    border-radius: 6px;
+    border-style: groove;   
+    gap: 2%;
+    text-align: center;
+    align-items:center;
+   
+    
+    
+    
+    
+
+    
+}
+.container > div{
+    border-radius: 6px;
+    
+    
+}
+
+.part_1{
+    width: 80px;
+    height: 63px;
+    background-color: aliceblue;
+    margin-left: 1%;
+  
+    
+    
+    
+}
+.part_2{
+    width: 80px;
+    height: 33px;
+    background-color: aliceblue;
+    justify-content: center;
+   
+}
+.part_3{
+    width: 80px;
+    height: 47px;
+    background-color: aliceblue;
+    
+}
+.part_4{
+    width: 80px;
+    height: 21px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.line{
+    position: absolute;
+    width: 700px;
+    height: 1px;
+    background-color: red;
+    margin-top: 20px;
+}
+.container_2{
+    width: 1000px;
+    height: 140px;
+    position: relative;
+    background-color: dodgerblue;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    border-style: groove;   
+    gap: 2%;
+    text-align: center;
+    align-items:center;
+    padding-left: 1%;
+   border-radius: 6px;
+}
+.wrap_1{
+    width: 80px;
+    height: 63px;
+    background-color: aliceblue;
+    
+    
+
+}
+.container_2 > div{
+    border-radius: 6px;
+    
+    
+}
+
+
+.container_3 > div{
+    border-radius: 6px;
+}
+    
+.container_3{
+    width: 900px;
+    height: 140px;
+    position: relative;
+    background-color: dodgerblue;
+    display: flex;
+   
+    margin-top: 10px;
+    border-style: groove;   
+    gap: 2%;
+    text-align: center;
+    align-items:center;
+    padding-left: 1%;
+   border-radius: 6px;
+ 
+}
+
+
+.line_1{
+    width: 80px;
+    height: 63px;
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+.container_4{
+    width: 900px;
+    height: 140px;
+    position: relative;
+    background-color: dodgerblue;
+    display: flex;
+   
+    margin-top: 10px;
+    border-style: groove;   
+    gap: 2%;
+    text-align: center;
+    align-items:center;
+    padding-left: 1%;
+    padding-right: 1%;
+   border-radius: 6px;
+}
+.container_4 > div{
+    border-radius: 6px;
+    background-color: aliceblue;
+
+} 
+
+
+.flex_grow_1{
+flex-grow: 1;
+
+}
+.flex_grow_2{
+    flex-grow: 1;
+
+}
+.flex_grow_3{
+    flex-grow: 3.5;
+}
